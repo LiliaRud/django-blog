@@ -1,0 +1,24 @@
+.admin-panel {
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
+    float: right;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    opacity: 0.3;
+}
+.admin-panel a {
+    margin-bottom: 5px;
+}
+.admin-panel div {
+    margin-bottom: 5px;
+}
+.admin-panel:hover {
+    opacity: 1;
+}
+.admin-panel .dropdown-menu a {
+    display: block;
+}
